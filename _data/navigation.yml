@@ -1,0 +1,7 @@
+# 主页顶部只保留三个入口，后续新增栏目时再扩展这里。
+- title: 首页
+  url: /
+- title: 笔记
+  url: /notes/
+- title: 归档
+  url: /archive/

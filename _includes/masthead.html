@@ -1,0 +1,13 @@
+<header class="masthead">
+  <div class="wrap">
+    <a href="{{ '/' | relative_url }}" class="site-emblem" rel="home" title="{{ site.title }}" aria-label="{{ site.title }}">
+      <span>PN</span>
+    </a>
+    {% if page.url == '/' %}
+      <h1 class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    {% else %}
+      <div class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+    {% endif %}
+    <p class="site-description animated fadeIn" itemprop="description">{{ site.description }}</p>
+  </div>
+</header><!-- /.masthead -->
