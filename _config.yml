@@ -62,6 +62,8 @@ tag_archive_path: "/tags/#"
 # Exclude the original theme demos and local build dependencies from the site.
 exclude:
   - CHANGELOG.md
+  - README.md
+  - README-OLD.md
   - docs
   - example
   - vendor
